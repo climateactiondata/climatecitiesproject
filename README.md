@@ -1,10 +1,10 @@
 # climatecitiesproject
 &lt;placeholder> A dataset on city climate action
 
-# INSTALLATION
+# Installation
 
-# USE
+# Use
 
 # FAQ
 
-# CITATION
+# Citation
