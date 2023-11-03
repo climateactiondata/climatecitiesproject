@@ -14,6 +14,8 @@ NOTES
 > Stata code (in separate do-files) for organising and cleaning the raw data, and generating variables used in analyses reported in the paper and Supplementary Information 
 > Run through CC_org do-files in alpha-numeric order starting from C1.0 ending in Z1.0.
 > The "C0.0 do-file is to be used on the raw CDP 2021 data (obtained from https://data.cdp.net/)
+> Do-file N1.0 refers to the non-CDP data do-file. This can be run anytime.
+> The merge file Z1.0 is run at the end
 
 
 3. CC_analys folder contains two sub-folders: dataset and do-files, and a Codebook (csv file)	
