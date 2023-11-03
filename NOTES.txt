@@ -3,11 +3,19 @@ NOTES
 1. Recommended to download entire folders (cc_org, cc_analys), to maintain subdirectory order
 
 2. CC_org folder contains two sub-folders: inputs and do-files
-	2a. "Inputs" folder contains the raw CDP 2021 data (csv and dta) and combined non-cdp data from multiple sources (see Extended Data Table 1 of paper)
-	2b. "do-files" folder contains Stata code (in separate do-files) for organising and cleaning the raw data, and generating variables used in analyses reported in the paper and Supplementary Information 
 
-3. Run through CC_org do-files in alpha-numeric order starting from C0.0 ending in Z1.0.
+2a.CC_org "Inputs" contains:
+> Non-cdp data from multiple sources in one file (see Extended Data Table 1 of paper). 
+> CDP 2021 data that hjas been processed using file C0.0. This dataset can be run using do-files C1.0 onwards.
+> The raw CDP data can be downloaded by readers from https://data.cdp.net/ NOTE: it is very large!
+	
 
-4. CC_analys folder contains two sub-folders: dataset and do-files, and a Codebook (csv file)
-	4b. "Dataset" contains the final dataset produced after processing the data using raw data and do-files in CC_org
-	4c. "do-files" folder contains Stata code (in separate do-files) to produce figures, model outputs, run tests and perform sensitivity analyses reported in the paper and Supplementary Information
+2b. CC_org "do-files" folder contains: 
+> Stata code (in separate do-files) for organising and cleaning the raw data, and generating variables used in analyses reported in the paper and Supplementary Information 
+> Run through CC_org do-files in alpha-numeric order starting from C1.0 ending in Z1.0.
+> The "C0.0 do-file is to be used on the raw CDP 2021 data (obtained from https://data.cdp.net/)
+
+
+3. CC_analys folder contains two sub-folders: dataset and do-files, and a Codebook (csv file)	
+3a. "Dataset" contains the final dataset produced after processing the data using raw data and do-files in CC_org
+3b. "do-files" folder contains Stata code (in separate do-files) to produce figures, model outputs, run 
