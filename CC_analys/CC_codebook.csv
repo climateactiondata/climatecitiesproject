@@ -1,0 +1,35 @@
+﻿Variable name (dataset),Variable name (Ext. Data Table 1),Type,Description,Source
+accnum,unique city identifier,,unique city identifier,CDP 2021
+accountname,City name,,City name,CDP 2021
+country,Country name,gsem level-2 variable,Country name,CDP 2021
+country_std,Standardised country name,,Standardised country name,Stata kountry command
+iso3n,ISO country code,,ISO3166 numeric code for country,Stata kountry command
+cdpregion,CDP region,,Geographic region as determined by CDP,CDP 2021
+i_city_bound,Administrative boundary,,Adminstrative boundary of city provided by respondent; options include,"CDP Cities 2021, Section 0, Q0.1"
+covimpct_act_adj,,dep var,"Impact of COVID on climate action in your city (adjusted; some ""Other"" responses were reclassified based on content)",
+covimpct_econ_adj,,dep var,"Impact of COVID on climate finance in your city (adjusted; some ""Other"" responses were reclassified based on content)",
+cov_recov_TOTAL,,dep var,Total number of 'green recovery interventions' in city,
+cc_hazd_prob_TOTAL,Climate change hazards ,indep var (MAIN),Total number of medium-high or high-probability hazards faced by the city as reported in 2021,"CDP Cities 2021, Section 2, Q2.1"
+ccimpct_hlth_iss_TOTAL,Climate-related health issues,indep var (MAIN),Total number of climate-related health issues faced by the city as reported in 2021,"CDP Cities 2021, Section 2, Q2.3a"
+ghg_tgt_allplussect_2020tgtyr,Pre-2021 climate targets,indep var (MAIN),Whether a city had a short-term (pre-2021) climate target; used as a proxy for commitment to action; assumes longer-term engagement and commitment in cities with pre-2021 targets,"CDP Cities 2021, Section 5, Q5 & Qs5.0a - Q5.0d"
+ghg_tgt_allplussect_2030tgtyr,,indep var (TEST),Whether a city had a pre-2031 climate target; used as a proxy for commitment to action,
+opp_TOTAL,Sustainability opportunities,indep var (MAIN),Total number of opportunities identified as a result of addressing climate change (reported in 2021),"CDP Cities 2021, Section 6, Q6.0"
+opp_collab_yes,Collaboration with business,indep var (MAIN),Whether a city collaborates with businesses on sustainability projects as reported in 2021,
+no2_bf25_mea_2019_qd,"Air pollution (NO2, pre COVID-19)",indep var (MAIN),"Value of tropospheric NO2 column in units of 10^15 (quadrillion) molecule/cm^2, using mean values for a 25 km buffer zone. ",NASA/ Goddard Earth Sciences Data and Information Services Center (GES DISC) (https://disc.gsfc.nasa.gov/) 
+no2_bf25_mea_2019_qd_3cat,,indep var (TEST),"Categorical variable indicating NO2 values at different levels of confidence and pollution, using 4 categories: 0 = NO2 value<.8; 1 = NO2 value>.8 & <5; 2 = NO2 value>5 & <10; 3 = NO2 value>10",NASA/ Goddard Earth Sciences Data and Information Services Center (GES DISC) (https://disc.gsfc.nasa.gov/) 
+no2_bf25_mea_2019_qd_quality,,indep var (TEST),"Binary variable indicating whether the NO2 value is reliable or not, using 8x10^14 as a threshold",NASA/ Goddard Earth Sciences Data and Information Services Center (GES DISC) (https://disc.gsfc.nasa.gov/) 
+climatemayors2020,,indep var (TEST),Binary variable indicating whether a city was a member of Climate Mayors in 2020  ,ClimActor (Hsu et al. 2020)
+eucovenantofmayors2021,,indep var (TEST),Binary variable indicating whether a city was a member of EU Covenant of Mayors in 2021,ClimActor (Hsu et al. 2020)
+gcomharmonized2021,,indep var (TEST),Binary variable indicating whether a city was a member of Global Covenant of Mayors in 2021,ClimActor (Hsu et al. 2020)
+racetozero2020,,indep var (TEST),Binary variable indicating whether a city was a member of Race to Zero in 2020,ClimActor (Hsu et al. 2020)
+under2coalition2020,,indep var (TEST),Binary variable indicating whether a city was a member of Under2 Coalition in 2020,ClimActor (Hsu et al. 2020)
+networks_yes,Network membership (2020-2021),indep var (MAIN),Whether city is a member of an international climate network (specifically: Climate Mayors; EU Covenant of Mayors; Global Covenant of Mayors; Race to Zero; Under2 Coalition),"ClimActor (Hsu et a., 2020)"
+ntl_bf25_mea_2020_impct_ppt,Economic impact (night-time lights),indep var (MAIN),"Impact of COVID-19 on economic activity during 2020, measured as difference in actual 2020 night-time lights versus counterfactual 2020 night-time lights values (see Supplementary information 1). Values are expressed as (positive and negative) percentage points.",Earth Observation Group platform (Annual VNL V2)
+ntl_2020_impct_cat,,indep var (TEST),"Categorial variable for impact of COVID-19 on economic activity during 2020 (see above for details); where 1=lowest 50% of negative values, 2=upper 50% of negative values, 3=positive values",Earth Observation Group platform (Annual VNL V2)
+logntl_bf25_mea_2019v2,"Log of economic activity (lights, pre-COVID-19)",indep var (MAIN),"Value of average-masked annual global VIIRS nighttime lights for 2019, using mean values for 25 km buffer zone, expressed in log form.",Earth Observation Group platform (Annual VNL V2)
+total_deaths_20_21_pth,COVID-19 deaths (2020-2021) (national),indep var (MAIN),"Rolling sum of deaths from COVID-19 in 2020 and 2021 at the national level, reported per thousands.",Our World in Data Coronavirus Deaths (https://ourworldindata.org/coronavirus)
+gvmt_response_index_ppt,Government response index,indep var (MAIN),"An index score ranging from '0' to '100', with higher values indicating better government response to the COVID-19 pandemic. Used as a proxy for good GDP governance.",Oxford COVID-19 Government Response Tracker (https://github.com/OxCGRT/COVID-policy-tracker)
+popden_bf25_max_div10000,Population density,indep var (MAIN),"Population density for 2020, reported in units of ten thousands of persons per square kilometre, using maximum values for a 25 km buffer zone.",Socioeconomic Data and Application Center (SEDAC) Center for Earth Science Information Network (http://dx.doi.org/10.7927/H4F47M2C)
+loggdp_country_2019,Log of GDP (national),indep var (MAIN),"National GDP for 2019, reported in current USD, expressed as a logarithm",World Bank national accounts data & OECD National Accounts Data Files (https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG)
+v2x_libdem_new_ppt,Liberal democracy index (national),indep var (MAIN),"An index score ranging from '0' to '1', with higher values indicating that the ideal of liberal democracy is achieved to a greater extent, rescaled to 0-100.","Varieties of Democracy Project Dataset (V-Dem), v12 (https://www.v-dem.net/data/the-v-dem-dataset/)"
+policies_cat_rating_cat,,indep var (TEST),"Categorical variable indicating how well governments are putting in place real policies and action in line with global least-cost mitigation pathways or fair share principles, with 5 categories: 1 = 1.5°C Paris Agreement compatible; 2 = Almost sufficient; 3 = Insufficient; 4 = Highly Insufficient; 5= Critically Insufficient","CAT, Country Assess- ments | Nov. 2022 http://climateactiontracker.org"

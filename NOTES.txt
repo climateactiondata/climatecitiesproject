@@ -1,0 +1,13 @@
+NOTES
+
+1. Recommended to download entire folders (cc_org, cc_analys), to maintain subdirectory order
+
+2. CC_org folder contains two sub-folders: inputs and do-files
+	2a. "Inputs" folder contains the raw CDP 2021 data (csv and dta) and combined non-cdp data from multiple sources (see Extended Data Table 1 of paper)
+	2b. "do-files" folder contains Stata code (in separate do-files) for organising and cleaning the raw data, and generating variables used in analyses reported in the paper and Supplementary Information 
+
+3. Run through CC_org do-files in alpha-numeric order starting from C0.0 ending in Z1.0.
+
+4. CC_analys folder contains two sub-folders: dataset and do-files, and a Codebook (csv file)
+	4b. "Dataset" contains the final dataset produced after processing the data using raw data and do-files in CC_org
+	4c. "do-files" folder contains Stata code (in separate do-files) to produce figures, model outputs, run tests and perform sensitivity analyses reported in the paper and Supplementary Information
