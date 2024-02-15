@@ -41,9 +41,15 @@ Cities in developed and developing countries have emerged as critical actors in 
 **Authors:**
 
 Tanya O’Garra 1,2, Viktoriya Kuz 3, Andrew Deneault 4, Chris Orr 5, and Sander Chan 4,6
+
 1 Department of Economics, Middlesex University, London, NW4 4BT UK
+
 2 Centre for Environmental Policy, Imperial College London, South Kensington Campus, London SW7 1NE, United Kingdom (present address)
+
 3 Independent Researcher, Brooklyn, New York, USA
+
 4 German Institute of Development and Sustainability (IDOS), Tulpenfeld 6, Bonn, Germany 53113
+
 5 Faculty of Environment, University of Waterloo, Ontario, Canada
+
 6 Nijmegen School of Management, Radboud University, Heijendaalseweg 141, 6525AJ Nijmegen, Netherlands
