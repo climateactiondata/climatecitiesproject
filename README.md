@@ -2,7 +2,7 @@
 **Sustaining and Strengthening City Climate Action in the COVID-19 crisis for a green
 and climate-resilient recovery (ClimateCitiesRecovery)**
 
-Cities in developed and developing countries have emerged as critical actors in efforts to reduce greenhouse gas emissions and to adapt to climate change impacts. Although the COVID-19 crisis has disrupted habits, short-term economic development and carbon emissions, it is less clear whether it represents a critical juncture beyond which cities will shift towards enduring low-carbon and climate-resilient pathways.1 This study investigates cities as potential drivers of green and climate-resilient recovery, seeking to identify factors that influence whether cities embark on low-carbon and resilient pathways, return to prior unsustainable pathways, or backtrack on climate commitments and head to unsustainable pathways. By comparing climate commitments of cities in developed and developing countries, we aim to challenge conventional paradigms about development and recovery from crises which often entail investments that lock-in high-carbon and unsustainable development. Our aim is to shed light on those factors that can be harnessed - and actions that can be taken - by individual cities and networks of cities, to support a green and climate-resilient recovery.
+Cities in developed and developing countries have emerged as critical actors in efforts to reduce greenhouse gas emissions and to adapt to climate change impacts. Although the COVID-19 crisis has disrupted habits, short-term economic development and carbon emissions, it is less clear whether it represents a critical juncture beyond which cities will shift towards enduring low-carbon and climate-resilient pathways. This study investigates cities as potential drivers of green and climate-resilient recovery, seeking to identify factors that influence whether cities embark on low-carbon and resilient pathways, return to prior unsustainable pathways, or backtrack on climate commitments and head to unsustainable pathways. By comparing climate commitments of cities in developed and developing countries, we aim to challenge conventional paradigms about development and recovery from crises which often entail investments that lock-in high-carbon and unsustainable development. Our aim is to shed light on those factors that can be harnessed - and actions that can be taken - by individual cities and networks of cities, to support a green and climate-resilient recovery.
 
 # **Publication for which this dataset is used:** Early engagement and co-benefits strengthen cities' climate commitments
 
@@ -15,7 +15,7 @@ Cities in developed and developing countries have emerged as critical actors in 
 
 2a.CC_org "Inputs" contains:
 > Non-cdp data from multiple sources in one file (see Extended Data Table 1 of paper). 
-> CDP 2021 data that hjas been processed using file C0.0. This dataset can be run using do-files C1.0 onwards.
+> CDP 2021 data that has been processed using file C0.0. This dataset can be run using do-files C1.0 onwards.
 > The raw CDP data can be downloaded by readers from https://data.cdp.net/ NOTE: it is very large!
 	
 
