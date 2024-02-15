@@ -37,7 +37,9 @@ Cities in developed and developing countries have emerged as critical actors in 
 &lt;placeholder> Input citation here after publication
 
 **Title:** Early engagement and co-benefits strengthen cities' climate commitments
-**Authors:** 
+
+**Authors:**
+
 Tanya O’Garra 1,2, Viktoriya Kuz 3, Andrew Deneault 4, Chris Orr 5, and Sander Chan 4,6
 1 Department of Economics, Middlesex University, London, NW4 4BT UK
 2 Centre for Environmental Policy, Imperial College London, South Kensington Campus, London SW7 1NE, United Kingdom (present address)
