@@ -8,7 +8,7 @@ Cities in developed and developing countries have emerged as critical actors in 
 
 **Abstract:** Cities are key players in the race to tackle climate change. However, escalating crises due to pandemics, conflict, and climate change challenge their ability to lead the way in climate action. Understanding how to support ambitious and sustained city climate action (i.e. measures taken to limit climate change or its impacts) in the context of these crises is essential. Here we use global data on 793 cities from the CDP 2021 platform to assess how COVID-19 - a major crisis of our times - has affected cities’ reported climate commitments and actions, and the factors associated with these impacts. We find climate actions persist despite funding shortfalls; yet only 43% of cities have implemented green recovery interventions. Co-benefits of climate action (e.g. health outcomes) and early engagement on sustainability issues (e.g. via climate networks) are associated with sustained climate action and finance during COVID-19, and green recovery interventions. Cities should strengthen sustainability co-benefits and relationships with coalitions of actors on sustainability issues to support durable climate commitments during crises.
 
-# Installation & use
+# Installation & use (Contents of file: Notes.txt)
 1. Recommended to download entire folders (cc_org, cc_analys), to maintain subdirectory order
 
 2. CC_org folder contains two sub-folders: inputs and do-files
@@ -35,3 +35,13 @@ Cities in developed and developing countries have emerged as critical actors in 
 
 # Citation
 &lt;placeholder> Input citation here after publication
+
+**Title:** Early engagement and co-benefits strengthen cities' climate commitments
+**Authors:** 
+Tanya O’Garra 1,2, Viktoriya Kuz 3, Andrew Deneault 4, Chris Orr 5, and Sander Chan 4,6
+1 Department of Economics, Middlesex University, London, NW4 4BT UK
+2 Centre for Environmental Policy, Imperial College London, South Kensington Campus, London SW7 1NE, United Kingdom (present address)
+3 Independent Researcher, Brooklyn, New York, USA
+4 German Institute of Development and Sustainability (IDOS), Tulpenfeld 6, Bonn, Germany 53113
+5 Faculty of Environment, University of Waterloo, Ontario, Canada
+6 Nijmegen School of Management, Radboud University, Heijendaalseweg 141, 6525AJ Nijmegen, Netherlands
